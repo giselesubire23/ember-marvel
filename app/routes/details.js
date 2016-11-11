@@ -8,7 +8,6 @@ export default Ember.Route.extend({
 
 			console.log(data.data.results[0]);
 
-			
 			return data.data.results;  
 
 		});
