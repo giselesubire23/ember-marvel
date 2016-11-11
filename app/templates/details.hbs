@@ -1,0 +1,19 @@
+<div class="container page-details">
+
+	{{#each model as | data|}}
+	<div class="row row-comics">
+		<figure class="col-comics-2">
+			<img src="{{data.thumbnail.path}}.{{data.thumbnail.extension}}">
+		</figure>
+
+		<div class="col-comics-8 comics-desc">
+			<h1>{{data.name}}</h1>
+			<p>{{data.description}}</p>
+		</div>
+	</div>
+
+	<div class="row row-comics">
+		<h2>Fascículos</h2>
+	</div>
+	{{/each}}
+</div>

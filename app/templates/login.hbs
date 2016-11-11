@@ -1,0 +1,20 @@
+<div class="container page-login">
+  <h1 class="title-h1">Dados de Acesso</h1>
+  
+  <form class="login-wrap">
+  	  {{#each model as | login|}}
+	  <fieldset class="login-content">
+	    <input type="text" placeholder="{{login.private}}" class="login-item" required />
+	  </fieldset>
+	  
+	  <fieldset class="login-content">
+	    <input type="text" placeholder="{{login.public}}" class="login-item" required />
+	  </fieldset>	 
+	  {{/each}}
+
+	  <fieldset class="login-content">
+	  	<input type="submit" value="Acessar" class="button" />
+	  </fieldset>	
+  </form>
+
+</div>

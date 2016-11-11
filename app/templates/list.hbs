@@ -1,0 +1,16 @@
+<div class="container page-list">
+	<ul class="full list-head">
+		<li class="list-item">Nome</li>
+		<li class="list-item">Descrição</li>
+		<li class="list-item">Última atualização</li>
+	</ul>
+	
+	{{#each model as | data|}}
+	<a class="full list-content" href="/details/{{data.id}}">		
+		<span class="list-item">{{data.name}}</span>
+		<span class="list-item">{{data.description}}</span>
+		<span class="list-item">{{data.modified}}</span>		
+	</a>
+	{{/each}}
+
+</div>

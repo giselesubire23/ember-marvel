@@ -1,0 +1,31 @@
+.full{
+	list-style: none;
+  	display: inline-block;
+  	padding: 10px;
+    border-bottom: 1px solid gainsboro;
+}
+.list-item{
+    display: inline-block;
+    width: 33%;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 12px;
+    color: #000;
+}
+
+ul.full.list-head{
+	background-color: #4a4a4a;
+}
+.list-head .list-item{
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;	
+	color: #FFF;
+}
+.list-content:nth-child(odd) {
+   background-color: #fbfbfb;
+}
+.list-content:hover{
+	background-color: gainsboro;
+	cursor: pointer;
+}

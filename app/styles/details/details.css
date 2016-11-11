@@ -1,0 +1,22 @@
+.col-comics-2{
+	display: inline-block;
+	width: 20%;
+	padding: 0 5px;	
+}
+.col-comics-8{
+	display: inline-block;
+	width: 80%;
+	padding: 0 5px;	
+}
+.comics-desc{
+	vertical-align: top;
+}
+.row-comics{	
+	margin-top: 30px;
+}
+.page-details figure{
+	max-width: 200px;
+}	
+.page-details figure img{
+	width: 100%;
+}

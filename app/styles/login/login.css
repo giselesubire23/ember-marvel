@@ -1,0 +1,31 @@
+.container.page-login{
+	margin-top: 100px;
+}
+.login-wrap{
+    display: inline-block;
+    width: 100%; 
+    margin-top: 25px;   
+}
+.title-h1{
+    display: inline-block;
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+}
+.login-content{
+	display: inline-block;
+    width: 100%;    
+    text-align: center;
+}
+.login-item{
+	width: 100%;
+	max-width: 500px;
+	height: 40px;	
+	margin-bottom: 15px;
+	text-indent: 12px;
+}
+.button{
+	display: inline-block;
+	margin-top: 5px;
+	cursor: pointer;
+}
