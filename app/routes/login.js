@@ -8,8 +8,5 @@ let login = [{
 export default Ember.Route.extend({
   model : function() {
     return login;
-  },
-  start: function() {
-    this.transitionTo('/list');
   }
 });
