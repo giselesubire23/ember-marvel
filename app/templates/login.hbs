@@ -4,16 +4,16 @@
   <form class="login-wrap" action="/list">
   	  {{#each model as | login|}}
 	  <fieldset class="login-content">
-	    <input type="text" placeholder="{{login.private}}" class="login-item" required />
+	  	{{input type="text" placeholder=login.private class="login-item" required="required"}}	    
 	  </fieldset>
 	  
 	  <fieldset class="login-content">
-	    <input type="text" placeholder="{{login.public}}" class="login-item" required />
+	  	{{input type="text" placeholder=login.public class="login-item" required="required"}}    
 	  </fieldset>	 
 	  {{/each}}
 
 	  <fieldset class="login-content">
-	  	<input type="submit" value="Acessar" class="button" />
+	  	{{input type="submit" value=Acessar class="button"}}
 	  </fieldset>	
   </form>
 
