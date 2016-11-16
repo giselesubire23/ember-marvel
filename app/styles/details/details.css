@@ -20,3 +20,7 @@
 .page-details figure img{
 	width: 100%;
 }
+.page-details .row-comics h2{
+	text-align: center;
+	font-size: 25px;
+}
